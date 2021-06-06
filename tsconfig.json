@@ -1,0 +1,11 @@
+{
+  "include": ["src/index.ts"],
+  "compilerOptions": {
+    "target": "ES6",
+    "moduleResolution": "node",
+    "strict": false,
+    "declaration": true,
+    "outDir": "./types"
+  },
+  "exclude": ["node_modules", "src/**/*.d.ts"]
+}
